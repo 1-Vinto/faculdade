@@ -4,7 +4,7 @@ public class Escola {
     }
     public static void main(String[] args) {
         int media = calcularMedia(60, 80, 70);
-        if (media < 60) {
+        if (media < 70) {
             System.out.println("Sua média é: "+ media + " REPROVADO");
         }else{
             System.out.println("Sua média é: "+ media + " APROVADO");
